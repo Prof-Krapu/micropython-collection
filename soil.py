@@ -17,4 +17,4 @@ while True:
     print(soil)#printing the ADC value
     soil2 = remap(soil, 3344,1780,0,100)
     print(soil2)
-    sleep(0.25)
+    sleep(0.250)
